@@ -1,5 +1,7 @@
 # Fix Codex Desktop Missing History Sidebar on Windows
 
+[中文说明](README.zh-CN.md) | English
+
 中文：Codex Desktop Windows 历史会话侧栏 / session list / recent conversations 短暂显示后消失的复现、分析和 MSIX 补丁教程。
 
 This repository documents a Windows Codex Desktop issue where the history sidebar briefly appears at startup and then becomes empty. It includes a protocol-level reproduction script, a minimal ASAR patcher, a Windows MSIX patch-and-install wrapper, and verification steps.
