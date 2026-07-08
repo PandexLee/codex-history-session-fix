@@ -1,0 +1,30 @@
+# Dependencies and package manager caches
+node_modules/
+.npm/
+
+# Temporary patch workspaces and unpacked app packages
+codex-history-sidebar-msix-patch/
+history-sidebar-*/
+app-asar/
+package/
+sdk-buildtools/
+npm-cache/
+
+# Generated packages and signing artifacts
+*.msix
+*.appx
+*.appxbundle
+*.cer
+*.pfx
+
+# Logs and local diagnostics
+*.log
+*.tmp
+*.bak
+*.orig
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
